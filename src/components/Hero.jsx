@@ -14,7 +14,7 @@ const Hero = () => (
           <span className="text-white">1 Month</span> Account
         </p>
       </div>
-      <div className="flex flex-row justify-between items-center w-full">
+      <div className="flex flex-row justify-between items-center sm:ml-5 ml-12 w-full">
         <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
           {" "}
           The Next <br className="sm:block hidden" />{" "}
@@ -26,7 +26,7 @@ const Hero = () => (
         </div>
       </div>
 
-      <p className={`${styles.paragraph} max-w-[470px] mt-10`}>
+      <p className={`${styles.paragraph} max-w-[470px] mt-10 `}>
         Our team of experts uses a methodology to identify the credit cards most
         likely to fit your needs. <br /> We examine annual percentage rates,
         annual fees.

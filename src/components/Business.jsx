@@ -6,8 +6,8 @@ import FeatureCard from "./FeatureCard";
 const Business = () => {
   return (
     <section id="features" className={layout.section}>
-      <div className={layout.sectionInfo}>
-        <div className="absolute z-[0] w-[60%] h-[60%] -left-[50%] rounded-full blue__gradient" />
+      <div className={`${layout.sectionInfo} sm:mr-10 mr-10`}>
+        <div className="absolute z-[0] w-[60%] h-[60%] -left-[50%]  rounded-full blue__gradient" />
         <h2 className={styles.heading2}>
           You do the business,
           <br className="sm:block hidden" /> we’ll handle the money.
